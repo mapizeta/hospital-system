@@ -2,10 +2,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        HospitalConfig config1 = new HospitalConfig();
-        HospitalConfig config2 = new HospitalConfig();
+        HospitalConfigSingleton configGlobal = HospitalConfigSingleton.getInstance();
 
-        ICURoom room = new ICURoom();
+        ICURoomPrototype room = new ICURoomPrototype();
 
         LegacyMonitor monitor = new LegacyMonitor();
 
