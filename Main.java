@@ -1,6 +1,6 @@
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
 
         HospitalConfig config1 = new HospitalConfig();
         HospitalConfig config2 = new HospitalConfig();
@@ -10,5 +10,8 @@ public class Main {
         LegacyMonitor monitor = new LegacyMonitor();
 
         System.out.println("Sistema iniciado");
+
+        ICURoom ICU = (ICURoom) room.clone();
+        ICU.showConfig();
     }
 }

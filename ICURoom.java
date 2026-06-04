@@ -1,4 +1,6 @@
-public class ICURoom {
+
+
+public class ICURoom implements Cloneable {
     private String monitor;
     private String alarm;
     private String network;
@@ -14,4 +16,13 @@ public class ICURoom {
         System.out.println("Alarm: " + alarm);
         System.out.println("Network: " + network);
     }
+    
+
+
+    @Override
+    public ICURoom clone() throws CloneNotSupportedException {
+        return (ICURoom) super.clone();
+    }
+
+
 }
