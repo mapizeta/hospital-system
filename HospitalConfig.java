@@ -15,4 +15,7 @@ public class HospitalConfig {
     public String getDatabaseUrl() {
         return databaseUrl;
     }
+
+    
 }
+
