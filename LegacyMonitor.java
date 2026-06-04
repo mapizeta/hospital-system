@@ -1,3 +1,5 @@
+//fabricante
+
 public class LegacyMonitor {
     public void establishConnection() {
         System.out.println("Legacy connection established");

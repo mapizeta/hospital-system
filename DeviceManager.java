@@ -1,3 +1,5 @@
+//permite trabajo con medicaldevice
+
 public class DeviceManager {
     public void connectDevice(MedicalDevice device) {
         device.connect();
