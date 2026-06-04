@@ -7,3 +7,4 @@ public class LegacyMonitor {
         System.out.println("Sending medical data");
     }
 }
+//Adapter
