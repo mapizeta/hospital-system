@@ -1,5 +1,7 @@
 public class HospitalConfig {
-
+    
+    private static HospitalConfig instance;
+    
     private String hospitalName;
     private String databaseUrl;
 
@@ -15,4 +17,5 @@ public class HospitalConfig {
     public String getDatabaseUrl() {
         return databaseUrl;
     }
+    
 }
