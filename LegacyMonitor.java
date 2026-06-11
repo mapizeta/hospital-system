@@ -30,7 +30,7 @@ class LegacyMonitorAdapter implements MedicalDevice {
     }
 }
 
-class Adapter {
+class AdapterFinal {
     public static void main(String[] args) {
         LegacyMonitor legacyMonitor = new LegacyMonitor();
         MedicalDevice monitorAdapter = new LegacyMonitorAdapter(legacyMonitor);
