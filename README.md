@@ -18,4 +18,4 @@ DeviceManager.java: Software interno que espera trabajar con cualquier dispositi
 
 
 
-//pequeño avance en singelton, falta el adapter y el Prototype.
+//termino del singelton, prototipe y ademas termino y correcion del adapter, en el cual el adapter tiene su clase junto a los anteriores mencionados, 
