@@ -32,7 +32,7 @@ public class Logger{
        return instance;
 
 
-class Singleton {
+class SingletonFinal {
     public static void main(String[] args) {
         HospitalConfig config1 = HospitalConfigSingleton.getInstance();
         HospitalConfig config2 = HospitalConfigSingleton.getInstance();
