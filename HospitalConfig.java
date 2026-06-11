@@ -32,5 +32,13 @@ public class Logger{
        return instance;
 
 
-//Singelton
-//pequeño avance en singelton, falta el adapter y el Prototype.
+class Singleton {
+    public static void main(String[] args) {
+        HospitalConfig config1 = HospitalConfigSingleton.getInstance();
+        HospitalConfig config2 = HospitalConfigSingleton.getInstance();
+
+        System.out.println("Hospital: " + config1.getHospitalName());
+        System.out.println("DB: " + config1.getDatabaseUrl());
+        System.out.println("¿Es la misma instancia? " + (config1 == config2));
+    }
+}
