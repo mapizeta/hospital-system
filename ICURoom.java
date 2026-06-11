@@ -15,4 +15,17 @@ public class ICURoom {
         System.out.println("Network: " + network);
     }
 }
-//Pritotype
+class Prototype {
+    public static void main(String[] args) {
+        ICURoomPrototype baseRoom = new ICURoomPrototype();
+        try {
+            ICURoomPrototype room1 = baseRoom.clone();
+            ICURoomPrototype room2 = baseRoom.clone();
+
+            room1.showConfig();
+            room2.showConfig();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+    }
+}
