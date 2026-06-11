@@ -6,6 +6,11 @@ public class LegacyMonitor {
     public void transmitInformation() {
         System.out.println("Sending medical data");
     }
+    
+    interace MedicalDivice{
+        void connect();
+        void sendData();
+    }
 }
 class LegacyMonitorAdapter implements MedicalDevice {
     private LegacyMonitor legacyMonitor;
